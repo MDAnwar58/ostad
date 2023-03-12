@@ -29,8 +29,5 @@ if(is_readable($filename))
     
     $data = file_get_contents($filename); // show all data
     echo $data;
-}else
-{
-    
 }
 
